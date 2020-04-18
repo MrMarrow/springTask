@@ -32,7 +32,6 @@ import static com.sgu.springTask.constant.UrlConstant.INCREASE_AMOUNT;
 import static com.sgu.springTask.constant.UrlConstant.TRANSACT;
 
 @Controller
-@RequestMapping("accounts")
 public class AccountController {
 
     private UserService userService;
